@@ -8,6 +8,11 @@
           <a href="/">Home</a>
         </div>
       </RouterLink>
+      <RouterLink :to="{ name: 'library' }">
+        <div class="flex flex-1 gap-3 justify-start">
+          <a href="/">Library</a>
+        </div>
+      </RouterLink>
       <RouterLink :to="{ name: 'login' }">
         <div class="flex flex-1 gap-3">
           <a href="/">Login</a>
